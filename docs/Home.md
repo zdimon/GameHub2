@@ -65,7 +65,7 @@
 
 Первое что нужно.
 
-1. [Регистрация](/docs/registration.md).
+1. [Регистрация](docs/registration.md).
 
 2. Логин.
 
