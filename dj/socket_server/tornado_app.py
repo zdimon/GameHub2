@@ -24,7 +24,7 @@ class QuizConnection(sockjs.tornado.SockJSConnection):
 
     # Initialization
     def __init__(self,*args):
-        super(ChatConnection, self).__init__(*args)
+        super(QuizConnection, self).__init__(*args)
         self.client = brukva.Client()
         self.client.connect()
         self.user = None
@@ -49,21 +49,15 @@ class QuizConnection(sockjs.tornado.SockJSConnection):
         message = json.loads(result.body)
         self.send(json.dumps(message))
 
-    # Subscribe user to channel
-    def subscribe(self, room):
-        self.client.subscribe(room) # Redis subscribe
-        logger.debug('subscribing to room %s' % (room, )) # Debug
-        self.client.listen(self.redis_message)
-
     # When we receive messages we go here
     def on_message(self, message): 
         ''' handler of message '''
         logger.debug(message) # Debug
         message = json.loads(message)
         # When we open connection
-        if message['act'] == 'open_connect':
+        if message['action'] == 'open_connect':
             logger.debug('Connection esteblished.')
-            mes = { 'act': 'somebody_joined', 'message': 'Someone joined' }  
+            mes = { 'action': 'somebody_joined', 'message': 'Someone joined' }  
             self.broadcast(self.participants, json.dumps(mes))
             
        
@@ -78,13 +72,6 @@ class QuizConnection(sockjs.tornado.SockJSConnection):
         logger.debug('User left')        
 
 
-    def redis_message(self, result):
-        ''' recieving  message from redis server, 
-            convertin it in json format 
-            and sending it to the current chanel
-        '''
-        message = json.loads(result.body)
-        self.send(json.dumps(message))
 
         # Subscribe user to channel
     def subscribe(self, room):
