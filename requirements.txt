@@ -1,1 +1,14 @@
-Django==2.0
+Django==1.11
+celery==3.1.11
+django-celery==3.1.10
+redis==2.10.1
+django-mptt==0.5.5
+tornado==4.0.1
+sockjs-tornado==1.0.1
+-e git+https://github.com/peterbe/django-sockjs-tornado#egg=django-sockjs-tornado
+django-social-auth==0.7.28
+django-rosetta==0.7.4
+django-modeltranslation
+psycopg2
+django-jsonview==1.1.0
+django-rest-framework
