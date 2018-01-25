@@ -1,0 +1,600 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-20 08:27+0000\n"
+"PO-Revision-Date: 2015-03-27 09:46+0000\n"
+"Last-Translator:   <sss@sdss.ss>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.7.4\n"
+
+#: ajax_upload/models.py:8
+#: course/static/django-ajax-upload-widget/ajax_upload/models.py:8
+#: static/django-ajax-upload-widget/ajax_upload/models.py:8
+msgid "creation date"
+msgstr "creation date"
+
+#: ajax_upload/models.py:9
+#: course/static/django-ajax-upload-widget/ajax_upload/models.py:9
+#: static/django-ajax-upload-widget/ajax_upload/models.py:9
+msgid "file"
+msgstr "file"
+
+#: ajax_upload/models.py:13
+#: course/static/django-ajax-upload-widget/ajax_upload/models.py:13
+#: static/django-ajax-upload-widget/ajax_upload/models.py:13
+msgid "uploaded file"
+msgstr "uploaded file"
+
+#: ajax_upload/models.py:14
+#: course/static/django-ajax-upload-widget/ajax_upload/models.py:14
+#: static/django-ajax-upload-widget/ajax_upload/models.py:14
+msgid "uploaded files"
+msgstr "uploaded files"
+
+#: ajax_upload/widgets.py:57 ajax_upload/tests/tests.py:108
+#: course/static/django-ajax-upload-widget/ajax_upload/widgets.py:57
+#: course/static/django-ajax-upload-widget/ajax_upload/tests/tests.py:108
+#: static/django-ajax-upload-widget/ajax_upload/widgets.py:57
+#: static/django-ajax-upload-widget/ajax_upload/tests/tests.py:108
+msgid "File path not allowed:"
+msgstr "File path not allowed:"
+
+#: ajax_upload/tests/tests.py:56
+#: course/static/django-ajax-upload-widget/ajax_upload/tests/tests.py:56
+#: static/django-ajax-upload-widget/ajax_upload/tests/tests.py:56
+msgid "This field is required."
+msgstr "This field is required."
+
+#: co/settings.py:32 templates/base.html:108
+msgid "Russian"
+msgstr "Russian"
+
+#: co/settings.py:33 templates/base.html:116
+msgid "English"
+msgstr "English"
+
+#: course/ajax.py:317
+msgid "Wait some seconds."
+msgstr ""
+
+#: course/ajax.py:362
+#, python-format
+msgid ""
+"Lesson <b> %s </b> from course <b> %s </b> just have been started. \n"
+"                You can join to this lesson by following a button below. "
+"<br>\n"
+"                <a href=\"%s\" class=\"btn btn-success red\"> Join to this "
+"lesson </a>"
+msgstr ""
+
+#: course/ajax.py:373
+#, python-format
+msgid ""
+"Lesson <b> %s </b> from course <b> %s </b> just have been stoped. \n"
+"                Thank you for visiting us."
+msgstr ""
+
+#: course/models.py:13 course/models.py:44 course/models.py:80
+#: course/templates/courses_list.html:36 course/templates/courses_list.html:54
+#: videolearn/models.py:11 videolearn/models.py:42 videolearn/models.py:57
+#: videolearn/templates/list_vcourse.html:36
+msgid "Name"
+msgstr "Name"
+
+#: course/models.py:14 course/models.py:45 videolearn/models.py:12
+#: videolearn/models.py:43 videolearn/models.py:58
+msgid "Description"
+msgstr "Description"
+
+#: course/models.py:15 videolearn/models.py:13
+msgid "Requirements"
+msgstr "Requirements"
+
+#: course/models.py:16 course/models.py:49 videolearn/models.py:14
+#: videolearn/models.py:45
+msgid "Owner"
+msgstr "Owner"
+
+#: course/models.py:17 course/models.py:50 course/models.py:134
+#: course/templates/courses_list.html:35 course/templates/courses_list.html:53
+#: videolearn/models.py:15 videolearn/templates/list_vcourse.html:35
+msgid "Image"
+msgstr "Image"
+
+#: course/models.py:19 course/models.py:46 videolearn/models.py:17
+#: videolearn/models.py:44
+msgid "Is main?"
+msgstr "Is main?"
+
+#: course/models.py:47
+msgid "Is camera on?"
+msgstr "Is camera on?"
+
+#: course/models.py:52 videolearn/models.py:46 videolearn/models.py:59
+msgid "Course"
+msgstr "Course"
+
+#: course/models.py:53
+msgid "Is runing?"
+msgstr ""
+
+#: course/models.py:81 course/models.py:174
+msgid "Lesson"
+msgstr "Lesson"
+
+#: course/models.py:87 course/models.py:181
+msgid "Text adding"
+msgstr "Text adding"
+
+#: course/models.py:88 course/models.py:182
+msgid "Text replacing"
+msgstr "Text replacing"
+
+#: course/models.py:89 course/models.py:98 course/models.py:183
+#: course/models.py:192
+msgid "Image file"
+msgstr "Image file"
+
+#: course/models.py:90 course/models.py:99 course/models.py:184
+#: course/models.py:193
+msgid "Image url"
+msgstr "Image url"
+
+#: course/models.py:91 course/models.py:185
+msgid "Clear"
+msgstr "Clear"
+
+#: course/models.py:93 course/models.py:187
+msgid "Type of event"
+msgstr "Type of event"
+
+#: course/models.py:100 course/models.py:173 course/models.py:194
+msgid "Text"
+msgstr "Text"
+
+#: course/models.py:101 course/models.py:195
+msgid "Topic"
+msgstr "Topic"
+
+#: course/models.py:104 course/models.py:198
+#, fuzzy
+msgid "Text size"
+msgstr "Text"
+
+#: course/models.py:105 course/models.py:199
+msgid "Text color"
+msgstr ""
+
+#: course/models.py:106 course/models.py:200
+#, fuzzy
+msgid "Text align"
+msgstr "Text adding"
+
+#: course/models.py:138
+msgid "Auto publish"
+msgstr "Auto publish"
+
+#: course/views.py:90
+msgid "Lesson was saved!"
+msgstr ""
+
+#: course/views.py:197
+msgid "You are already subscribed."
+msgstr ""
+
+#: course/views.py:208
+msgid "You was subscribed successfully."
+msgstr ""
+
+#: course/views.py:234
+msgid "New course was created!"
+msgstr ""
+
+#: course/views.py:246
+msgid "Course was deleted!"
+msgstr ""
+
+#: course/views.py:270
+msgid "New lesson was created!"
+msgstr ""
+
+#: course/views.py:284
+msgid "Lesson was deleted!"
+msgstr ""
+
+#: course/templates/_lesson_for_student.html:17
+#: course/templates/lesson_for_student.html:17
+msgid "PARTICIPANTS"
+msgstr "PARTICIPANTS"
+
+#: course/templates/_lesson_for_student.html:30
+msgid "Write board"
+msgstr "Write board"
+
+#: course/templates/_lesson_for_student.html:31
+#: course/templates/lesson_for_student.html:78
+msgid "YES"
+msgstr "YES"
+
+#: course/templates/_lesson_for_student.html:32
+#: course/templates/lesson_for_student.html:79
+msgid "NO"
+msgstr "NO"
+
+#: course/templates/_lesson_for_student.html:33
+#: course/templates/lesson_for_student.html:80
+msgid "I have got it."
+msgstr ""
+
+#: course/templates/_lesson_for_student.html:34
+#: course/templates/lesson_for_student.html:81
+msgid "Can you be more specific please!"
+msgstr "Can you be more specific please!"
+
+#: course/templates/_lesson_for_student.html:35
+#: course/templates/lesson_for_student.html:82
+msgid "I dont understand!"
+msgstr "I dont understand!"
+
+#: course/templates/_lesson_for_student.html:37
+#: course/templates/lesson_for_student.html:84
+msgid "Thank you very match."
+msgstr "Thank you very mach."
+
+#: course/templates/_lesson_for_student.html:38
+#: course/templates/lesson_for_student.html:85
+msgid "I have a question!"
+msgstr ""
+
+#: course/templates/_lesson_for_student.html:44
+#: course/templates/lesson_for_student.html:91
+msgid "Camera is disabled"
+msgstr "Camera is disabled"
+
+#: course/templates/_lesson_for_student.html:51
+#: course/templates/lesson_for_student.html:98
+msgid "Chat"
+msgstr "Chat"
+
+#: course/templates/_lesson_for_student.html:58
+#: course/templates/lesson_for_student.html:105
+msgid "Send message"
+msgstr "Send message"
+
+#: course/templates/course_detail.html:18
+#: course/templates/course_detail.html:29
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#: course/templates/course_detail.html:33
+#: course/templates/courses_list.html:38
+#: videolearn/templates/list_vcourse.html:38
+#, fuzzy
+msgid "Lessons"
+msgstr "Lesson"
+
+#: course/templates/courses_list.html:29 main/templates/profile.html:167
+#, fuzzy
+msgid "List of your courses"
+msgstr "Login ino your account"
+
+#: course/templates/courses_list.html:37 course/templates/courses_list.html:55
+#: videolearn/templates/list_vcourse.html:37
+msgid "Is active"
+msgstr ""
+
+#: course/templates/courses_list.html:39 course/templates/courses_list.html:56
+#: videolearn/templates/list_vcourse.html:39
+msgid "Actions"
+msgstr ""
+
+#: course/templates/courses_list.html:67 course/templates/edit_course.html:95
+#: course/templates/lesson_edit.html:143 course/templates/lesson_edit.html:157
+msgid "Sure?"
+msgstr ""
+
+#: course/templates/courses_list.html:67
+#, fuzzy
+msgid "Delete lesson"
+msgstr "Clear lesson"
+
+#: course/templates/courses_list.html:68 course/templates/image_add.html:14
+#: course/templates/lesson_edit.html:35 main/templates/profile.html:157
+msgid "Edit lesson"
+msgstr "Edit lesson"
+
+#: course/templates/courses_list.html:69
+#: course/templates/lesson_for_owner.html:41 main/templates/profile.html:155
+msgid "Start lesson"
+msgstr "Start lesson"
+
+#: course/templates/courses_list.html:75
+#: course/templates/create_lesson.html:30 course/templates/lesson_edit.html:55
+#, fuzzy
+msgid "Create lesson"
+msgstr "Clear lesson"
+
+#: course/templates/courses_list.html:78 course/templates/edit_course.html:29
+#, fuzzy
+msgid "Edit course"
+msgstr "My courses"
+
+#: course/templates/create_course.html:29
+#, fuzzy
+msgid "Create course"
+msgstr "Active courses"
+
+#: course/templates/create_course.html:91
+#: course/templates/create_lesson.html:75 course/templates/edit_course.html:92
+#: course/templates/lesson_edit.html:105 main/templates/profile.html:127
+#: videolearn/templates/edit_vcourse.html:92
+msgid "Save"
+msgstr "Save"
+
+#: course/templates/create_lesson.html:30 course/templates/lesson_edit.html:55
+#, fuzzy
+msgid "course"
+msgstr "Course"
+
+#: course/templates/edit_course.html:95
+#, fuzzy
+msgid "Delete course"
+msgstr "Active courses"
+
+#: course/templates/flash_cam_student.html:34
+#: course/templates/flash_cam_student.html:38
+#: course/templates/lesson_for_owner.html:88
+#: course/templates/lesson_for_owner.html:94
+msgid "Off"
+msgstr ""
+
+#: course/templates/flash_cam_student.html:36
+#: course/templates/lesson_for_owner.html:86
+#: course/templates/lesson_for_owner.html:92
+msgid "On"
+msgstr ""
+
+#: course/templates/flash_cam_student.html:44
+msgid "Microphone enabled"
+msgstr ""
+
+#: course/templates/flash_cam_student.html:46
+msgid "Microphone disabled"
+msgstr ""
+
+#: course/templates/lesson_edit.html:123
+msgid "Add image"
+msgstr ""
+
+#: course/templates/lesson_edit.html:142
+msgid "Move all to incubator"
+msgstr ""
+
+#: course/templates/lesson_edit.html:143 course/templates/lesson_edit.html:157
+msgid "Delete all"
+msgstr ""
+
+#: course/templates/lesson_edit.html:144
+msgid "Events"
+msgstr ""
+
+#: course/templates/lesson_edit.html:156
+msgid "Move all to events"
+msgstr ""
+
+#: course/templates/lesson_edit.html:158
+#: course/templates/lesson_for_owner.html:66
+msgid "Incubator"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:43
+#, fuzzy
+msgid "Stop lesson"
+msgstr "Start lesson"
+
+#: course/templates/lesson_for_owner.html:110
+msgid "Small"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:111
+msgid "Middle"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:112
+msgid "Big"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:113
+msgid "Very big"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:117
+msgid "Green"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:118
+msgid "Yellow"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:119
+msgid "Red"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:120
+msgid "Blue"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:124
+msgid "Left"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:125
+msgid "Center"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:126
+msgid "Right"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:132
+msgid "Replace"
+msgstr ""
+
+#: course/templates/lesson_for_owner.html:133
+msgid "Add"
+msgstr ""
+
+#: course/templates/lesson_running_list.html:8
+msgid "Join"
+msgstr ""
+
+#: course/templates/lesson_running_list.html:15
+msgid "There are no active lessons at this moment."
+msgstr ""
+
+#: course/templates/my_cam.html:40
+msgid "Save your pictrure"
+msgstr ""
+
+#: main/models.py:12
+msgid "Is teacher?"
+msgstr "Is teacher?"
+
+#: main/models.py:13
+msgid "Phone"
+msgstr "Phone"
+
+#: main/models.py:14
+msgid "About you"
+msgstr ""
+
+#: main/models.py:14
+msgid "Tell us about your please."
+msgstr ""
+
+#: main/models.py:15
+#, fuzzy
+msgid "Is cam on?"
+msgstr "Is camera on?"
+
+#: main/models.py:16
+#, fuzzy
+msgid "Is mic on?"
+msgstr "Is main?"
+
+#: main/templates/index.html:24
+msgid "Active courses"
+msgstr "Active courses"
+
+#: main/templates/index.html:38
+#, fuzzy
+msgid "Our teachers"
+msgstr "Is teacher?"
+
+#: main/templates/profile.html:29
+msgid "My profile"
+msgstr "My profile"
+
+#: main/templates/profile.html:140
+msgid "Take a picture from your webcamera"
+msgstr ""
+
+#: main/templates/profile.html:150
+msgid "My courses"
+msgstr "My courses"
+
+#: main/templates/profile.html:156
+msgid "Clear lesson"
+msgstr "Clear lesson"
+
+#: main/templates/profile.html:159
+msgid "Enter to this lesson"
+msgstr "Enter to this lesson"
+
+#: main/templates/profile.html:166
+msgid "Create new course"
+msgstr ""
+
+#: main/templates/profile.html:171 videolearn/templates/list_vcourse.html:54
+#, fuzzy
+msgid "Create new video course"
+msgstr "Active courses"
+
+#: main/templates/profile.html:172 videolearn/templates/edit_vcourse.html:96
+#: videolearn/templates/list_vcourse.html:29
+#, fuzzy
+msgid "My video courses"
+msgstr "My courses"
+
+#: main/templates/profile.html:178
+msgid "Available courses"
+msgstr "Available courses"
+
+#: templates/base.html:70
+msgid "Online Courses"
+msgstr "Online Courses"
+
+#: templates/base.html:79
+msgid "Logout"
+msgstr ""
+
+#: templates/base.html:84 templates/registration/login.html:47
+msgid "Войти с помощью"
+msgstr "Login by"
+
+#: templates/base.html:96
+#, fuzzy
+msgid "Sign in"
+msgstr "Signup"
+
+#: templates/base.html:98 templates/registration/registration_form.html:27
+#: templates/registration/registration_form.html:123
+msgid "Registration"
+msgstr "Registration"
+
+#: templates/common/login_form.html:5
+msgid "Login ino your accounxt"
+msgstr "Login ino your account"
+
+#: templates/common/login_form.html:9
+msgid "Логин"
+msgstr "Login"
+
+#: templates/common/login_form.html:13
+msgid "Пароль"
+msgstr "Password"
+
+#: templates/common/login_form.html:15
+msgid "Signup"
+msgstr "Signup"
+
+#: templates/common/login_form.html:22
+msgid "Login"
+msgstr "Login"
+
+#: videolearn/models.py:47
+msgid "Video"
+msgstr ""
+
+#: videolearn/views.py:24
+msgid "Course has been saved!"
+msgstr ""
+
+#: videolearn/templates/edit_vcourse.html:29
+#, fuzzy
+msgid "New/edit course"
+msgstr "My courses"
+
+#~ msgid "I"
+#~ msgstr "I"
