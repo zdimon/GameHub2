@@ -1,0 +1,2 @@
+ssh -t game@134.249.158.138 "cd GameHub; git pull"
+ssh -t game@134.249.158.138 "cd GameHub/dj; . ../ve3/bin/activate; ./manage.py migrate"
