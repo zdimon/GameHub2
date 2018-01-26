@@ -1,0 +1,64 @@
+{% load staticfiles %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="target-densitydpi=device-dpi">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>{% block title %}Online cources{% endblock %}</title>
+    {% block seo_tags %}{% endblock %}
+    {% block style %}
+        <link href="{% static 'node_modules/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+    {% endblock %}
+    {% block js %}{% endblock %}
+
+</head>
+<body>
+
+
+        <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">GameHub</a>
+          
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">{% trans 'Contacts' %}</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">{% trans 'Terms and conditions' %}</a>
+                    </li>
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="email">
+                    <input class="form-control mr-sm-2" type="text" placeholder="password">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">{% trans 'Login' %}</button> &nbsp;
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">{% trans 'Registration' %}</button>
+                  </form>
+                </div>
+              </nav>
+
+    {% block center %}{% endblock %}
+
+    <div class="container">
+        <footer>
+                <p>&copy; Company 2017</p>
+        </footer>
+    </div>
+    <script src="{% static 'node_modules/jquery/dist/jquery.min.js' %}"></script>
+    <script src="{% static 'node_modules/tether/dist/js/tether.min.js' %}"></script>
+    <script src="{% static 'node_modules/bootstrap/dist/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'node_modules/sockjs-client/dist/sockjs.min.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
