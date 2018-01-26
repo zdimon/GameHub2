@@ -1,4 +1,4 @@
-var sock = new SockJS('http://localhost:9999/echo');
+var sock = new SockJS('https://localhost:9999/echo');
 sock.onopen = function() {
     console.log('open');
     sock.send(JSON.stringify({"action": "open_connect"}));
