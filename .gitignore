@@ -3,3 +3,4 @@ ve
 dj/db.sqlite3
 .idea
 local.py
+node_modules
