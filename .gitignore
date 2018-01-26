@@ -2,3 +2,4 @@ ve
 *.pyc
 dj/db.sqlite3
 .idea
+local.py
